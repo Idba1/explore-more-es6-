@@ -4,7 +4,7 @@ class Vehicle{
         this.price = price;
     }
     move(){
-        console.log('gari chole na chole na chole na re')
+        console.log(`${this.name} gari chole na chole na chole na re`)
     }
 }
 
@@ -32,3 +32,5 @@ console.log(labiba);
 
 const janbahon = new Vehicle('labiba', 1200000);
 console.log(janbahon);
+
+janbahon.move();

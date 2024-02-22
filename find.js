@@ -13,4 +13,5 @@ console.log(selected)
  * 2. forEach
  * 3. filter 
  * 4. find
+ * 5.reduce
 */

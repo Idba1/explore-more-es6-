@@ -23,3 +23,12 @@ class Truck extends Vehicle{
         this.load = load;
     }
 }
+
+const mahindra = new Truck('mahindra', 1000000, '50taan');
+console.log(mahindra);
+
+const labiba = new Bus('labiba', 1200000, 55, 550);
+console.log(labiba);
+
+const janbahon = new Vehicle('labiba', 1200000);
+console.log(janbahon);

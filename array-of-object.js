@@ -1,3 +1,27 @@
+const student = [
+    {id: 1, name: 'Idba', marks:200},
+    {id: 2, name: 'Rifa', marks:400},
+    {id: 3, name: 'tisha', marks:400},
+    {id: 4, name: 'anisha', marks:200},
+    {id: 5, name: 'mimmi', marks:430},
+]
+
+student.forEach(id => console.log(id.id));
+
+const name = student.map(name => name.name);
+console.log(name);
+
+const even = student.filter(num => num.marks>=400);
+console.log(even)
+
+
+const even2 = student.find(num => num.marks>=400);
+console.log(even2)
+
+
+const mark3 = student.reduce((previou,present) => previou + present.marks,0)
+console.log(mark3)
+
 const products = [
     {id: 1, name: 'lenovo', price: 65000},
     {id: 2, name: 'dell', price: 45000},
